@@ -1,6 +1,5 @@
 body {
-	background-image: url(assets/images/asanoha-400px.png);
-	background-repeat: repeat
+	margin: 0;
 }
 
 body h1, h2, h3, h4, h5, h6 {
@@ -10,6 +9,8 @@ body h1, h2, h3, h4, h5, h6 {
 body p, a{
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 	color: #777777;
+	font-size: 14px;
+	line-height: 25px;
 }
 
 body a {
@@ -19,6 +20,8 @@ body a {
 }
 
 .wrapper {
+	background-image: url(assets/images/asanoha-400px.png);
+	background-repeat: repeat;
 	width: 100%;
 }
 
@@ -52,22 +55,24 @@ body a {
 .bodyContent {
 	width: 960px;
 	padding: 50px 0;
-	margin-left: 0 auto;
-	margin-right: 0 auto;
 	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
 }
 
 .mainContent {
-	border: 2px solid #dddddd;
-	width: 650px;
+	border: 1px solid #dddddd;
+	width: 610px;
 	float: left;
+	padding: 20px;
 }
 
 .sidebar {
-	margin-left: 30px;
-	border: 2px solid #dddddd;
-	float: left;
-	width: 270px;
+	border: 1px solid #dddddd;
+	float: right;
+	width: 230px;
+	padding: 20px;
 }
 
 .bodyFooter {
@@ -78,6 +83,18 @@ body a {
 	background: #666666;
 	border-top: 7px solid #4aaaa5;
 	text-align:center;
+}
+
+.profilePic {
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	vertical-align: bottom;
+}
+
+.social {
+	display: inline;
+	padding-top: 15px;
 }
 
 
