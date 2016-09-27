@@ -1,0 +1,59 @@
+body {
+	background-image: url(assets/images/asanoha-400px.png) repeat;
+}
+
+body h1, h2, h3, h4, h5, h6 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+}
+
+body p {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+}
+
+body a {
+	text-decoration: none;
+	color: #777777;
+}
+
+.topbar {
+	position: relative;
+	height: 65px;
+	width: 100%;
+	border-bottom: 2px solid #cccccc;
+}
+
+.nav {
+	position: absolute;
+	background: #ffffff;
+	bottom: 25px;
+	right: 100px;
+}
+
+.logo {
+	height: 65px;
+	width: 200px;
+	float: left;
+	background: #4aaaa5;
+	margin-left: 80px;
+	text-align: center;
+}
+
+.bodyContent {
+	width: 960px;
+	height: 100%;
+}
+
+.mainContent {
+	width: 650px;
+}
+
+.sidebar {
+	width: 270px;
+}
+
+
+
+
+
