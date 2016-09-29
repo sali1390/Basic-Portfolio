@@ -67,7 +67,7 @@ body p, a{
 	border: 1px solid #dddddd;
 	width: 600px;
 	float: left;
-	padding: 30px;
+	padding: 24px;
 }
 
 .main-content h1 {
@@ -91,7 +91,7 @@ body p, a{
 	border: 1px solid #dddddd;
 	float: right;
 	width: 230px;
-	padding: 20px;
+	padding: 19px;
 }
 
 .sidebar h4 {
@@ -161,11 +161,11 @@ body p, a{
 	width: 594px;
 	margin: 5px 0;
 	padding: 5px 0 5px 5px;
-	border: 1px solid lightgray;
+	border: 1px solid #cccccc;
 }
 
 #message-box {
-	height: 100px;
+	height: 120px;
 }
 
 #submit-button {
